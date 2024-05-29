@@ -2,7 +2,7 @@
 
 * Студент: [Валерия Почебыт](https://up.htmlacademy.ru/htmlcss/40/user/2263655).
 * Наставник: [Николай Колганов](https://htmlacademy.ru/profile/id794007).
-
+* Сайт: [Мой проект "Седона"](https://valeriya132000.github.io/2263655-sedona-40/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
