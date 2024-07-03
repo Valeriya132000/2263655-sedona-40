@@ -197,4 +197,16 @@ select{
   text-align: left;
   text-transform: uppercase;
 }
+.subscribe-title-catalog{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+.subscribe-description-catalog{
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+}
 /*Каталог*/
