@@ -1,0 +1,200 @@
+@font-face{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face{
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-regular-400.woff2) format("woff2");
+  font-display: swap;
+}
+/*../fonts/pt-sans-bold.woff2  ../fonts/pt-sans-regular.woff2*/
+
+
+body{
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/*Шапка*/
+.nаvigation a{
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.nаvigation-user .button{
+  text-transform: uppercase;
+  /*color: #ffff;*/
+  font-size: 16px;
+  line-height: 20px;
+}
+/*Шапка*/
+
+/*Главное содержание*/
+/*Баннер*/
+.main-index{
+  background-color: #83B3D3;
+  background-image: url(../images/content/sedona-inscription-image-fon.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.hero{
+  text-align: center;
+}
+/*Баннер*/
+
+/*Весь блок main*/
+h1{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.subtitle{
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+h2{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+p{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+}
+/*Преимущества*/
+
+/*Услуги*/
+/*Услуги*/
+
+/*Поиск гостиницы*/
+/*Поиск гостиницы*/
+
+/*Подписка на рассылку*/
+.subscribe{
+  background-color: #83B3D3;
+  background-image: url(../images/decorative-elements/subscribe-fon.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.subscribe-title,
+.subscribe-description{
+  color: #FFFFFF;
+}
+/*Подписка на рассылку*/
+.pagination a{
+  /*color: #FFFFFF;*/
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-decoration: none;
+}
+/*Главное содержание*/
+
+/*Подвал*/
+.contacts-phone{
+  color: #000000;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  text-align: center;
+}
+.footer-logo{
+  background-repeat: no-repeat;
+}
+/*Подвал*/
+
+
+/*Каталог*/
+.header-catalog{
+  background-color: #83B3D3;
+  background-image: url(../images/decorative-elements/catalog-fon.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.inner-header-title{
+  color: #FFFFFF;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  text-transform: none;
+  text-align: left;
+}
+.breadcrumbs a{
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  text-decoration: none;
+}
+legend{
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.catalog-filter-list{
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}
+.search-result-title{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: none;
+  text-align: left;
+}
+select{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.card-hotel-title h3{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.card-type-hotel,
+.card-price{
+  text-align: left;
+}
+.catalog-list a{
+  /*color: #FFFFFF;*/
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.rating-result {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+/*Каталог*/
