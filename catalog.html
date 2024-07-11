@@ -111,32 +111,34 @@
               <label for="price-from">до</label>
               <input class="field" type="number" name="price-to" id="price-to" value="9000">
             </fieldset>
-            <button class="button" type="submit">Применить</button>
-            <button class="button-reset" type="reset">Сбросить</button>
+            <button class="apply-button" type="submit">Применить</button>
+            <button class="reset-button" type="reset">Сбросить</button>
           </form>
         </section>
       </div>
       <!--Форма заполнения для поиска в каталоге-->
       <!--Результат поиска гостинец-->
-      <section class="search-result">
-        <h2 class="search-result-title"> Найдено гостиниц: 38</h2>
-        <select class="select-control" aria-label="Сортировка">
-          <option value="cheap">Сначала дешевое</option>
-          <option value="expensive">Сначала дорогое</option>
-          <option value="popular">Сначала популярное</option>
-        </select>
-        <div class="display-switches">
-          <a class="display-pictures button" href="catalog.html?view=tile" >
-            <span class="visually-hidden">Показать карточки</span>
-          </a>
-          <a class="display-card-description button" href="catalog.html?view=card">
-            <span class="visually-hidden">Показать карточки с описанием</span>
-          </a>
-          <a class="display-description button" href="catalog.html?view=list">
-            <span class="visually-hidden">Показать список</span>
-          </a>
-        </div>
-      </section>
+      <div class="sorting-container">
+        <section class="search-result">
+          <h2 class="search-result-title"> Найдено гостиниц: 38</h2>
+          <select class="select-control" aria-label="Сортировка">
+            <option value="cheap">Сначала дешевое</option>
+            <option value="expensive">Сначала дорогое</option>
+            <option value="popular">Сначала популярное</option>
+          </select>
+          <div class="display-switches">
+            <a class="display-pictures button" href="catalog.html?view=tile" >
+              <span class="visually-hidden">Показать карточки</span>
+            </a>
+            <a class="display-card-description button" href="catalog.html?view=card">
+              <span class="visually-hidden">Показать карточки с описанием</span>
+            </a>
+            <a class="display-description button" href="catalog.html?view=list">
+              <span class="visually-hidden">Показать список</span>
+            </a>
+          </div>
+        </section>
+      </div>
       <!--Результат поиска гостинец-->
       <!--Карточки товара-->
       <ul class="catalog-list">
@@ -156,7 +158,7 @@
           <p class="card-type-hotel">Гостиница</p>
           <p class="card-price">От 5000 ₽</p>
           <a class="show-more" href="#">Подробнее</a>
-          <button class="card-button-chosen" type="button">В избранном</button>
+          <button class="card-button-chosen-added" type="button">В избранном</button>
           <div class="rating-star">Звезды</div>
           <p class="rating-result">Рейтинг: 9,2</p>
         </li>
@@ -197,7 +199,7 @@
           <a class="pagination-link" href="#">4</a>
         </li>
         <li class="pagination-item">
-          <span class="pagination-link">...</span>
+          <span class="pagination-link-points">...</span>
         </li>
         <li class="pagination-item">
           <a class="pagination-link" href="#">10</a>

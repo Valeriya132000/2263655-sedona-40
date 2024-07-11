@@ -26,12 +26,15 @@ body{
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
-  color: #000000;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
 }
 
 /*Шапка*/
-.nаvigation a{
+.page-header{
+  background-color: #FFFFFF;
+}
+
+.nаvigation-link{
   font-size: 20px;
   font-weight: 700;
   color: #000000;
@@ -40,27 +43,25 @@ body{
 
 .nаvigation-user .button{
   text-transform: uppercase;
-  /*color: #ffff;*/
+  color: #FFFFFF;
   font-size: 16px;
   line-height: 20px;
+  background-color: #756157;
 }
 /*Шапка*/
 
 /*Главное содержание*/
 /*Баннер*/
 .main-index{
-  background-color: #83B3D3;
-  background-image: url(../images/content/sedona-inscription-image-fon.jpg);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-.hero{
-  text-align: center;
+  background-color: #FFFFFF;
 }
 /*Баннер*/
 
 /*Весь блок main*/
-h1{
+.advantages-main-title,
+.services-main-title,
+.hotel-search-main-title,
+.subscribe-main-title{
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -72,19 +73,35 @@ h1{
   line-height: 26px;
   font-weight: 400;
   text-align: center;
+  color: #333333;
 }
-h2{
+
+.advantages-title.real-town,
+.advantages-description-item.real-town {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.advantages-title.devils-bridge,
+.advantages-description-item.devils-bridge {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+.advantages-title,.services-title{
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+  color: #000000;
 }
-p{
+
+.advantages-description-item,.services-description{
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   text-align: center;
+  color: #333333;
 }
 /*Преимущества*/
 
@@ -92,6 +109,15 @@ p{
 /*Услуги*/
 
 /*Поиск гостиницы*/
+.hotel-search-button{
+  background-color: #756157;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
 /*Поиск гостиницы*/
 
 /*Подписка на рассылку*/
@@ -101,21 +127,46 @@ p{
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+.field-email{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+.subscribe-button{
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
 .subscribe-title,
 .subscribe-description{
   color: #FFFFFF;
 }
+
 /*Подписка на рассылку*/
-.pagination a{
-  /*color: #FFFFFF;*/
+.pagination-link{
+  background-color: #82B3D3;
+  color: #FFFFFF;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
   text-decoration: none;
 }
+
+.pagination-current,.pagination-item-points{
+  color: #000000;
+  background-color: #F2F2F2;
+}
 /*Главное содержание*/
 
 /*Подвал*/
+.page-footer{
+  background-color: #FFFFFF;
+}
 .contacts-phone{
   color: #000000;
   font-size: 40px;
@@ -130,6 +181,9 @@ p{
 
 
 /*Каталог*/
+.main-inner{
+  background-color: #FFFFFF;
+}
 .header-catalog{
   background-color: #83B3D3;
   background-image: url(../images/decorative-elements/catalog-fon.jpg);
@@ -144,7 +198,7 @@ p{
   text-transform: none;
   text-align: left;
 }
-.breadcrumbs a{
+.breadcrumbs-link{
   color: #FFFFFF;
   font-size: 16px;
   line-height: 21px;
@@ -163,6 +217,22 @@ legend{
   line-height: 23px;
   font-weight: 400;
 }
+.apply-button{
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
+.reset-button{
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .search-result-title{
   font-size: 30px;
   line-height: 36px;
@@ -175,23 +245,46 @@ select{
   line-height: 21px;
   font-weight: 400;
 }
-.card-hotel-title h3{
+.card-hotel-title{
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
 }
 .card-type-hotel,
-.card-price{
+.card-price,.rating-star{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
   text-align: left;
 }
-.catalog-list a{
-  /*color: #FFFFFF;*/
+.show-more{
+  background-color: #756157;
+  color: #FFFFFF;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
+  text-transform: uppercase;
   text-decoration: none;
 }
-.rating-result {
+.card-button-chosen{
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border:none;
+}
+.card-button-chosen-added{
+  background-color: #7DB54F;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border:none;
+}
+.rating-result{
   font-size: 16px;
   line-height: 20px;
   text-align: left;
